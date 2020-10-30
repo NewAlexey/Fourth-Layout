@@ -17,6 +17,10 @@
 	display: flex;
 	justify-content: center;
   }
+
+  .width-flex {
+	display: flex;
+  }
   
   .div-center {
 	display: inline-block;
@@ -316,7 +320,7 @@
   }
   
   .div-developers-shadow:hover > .social-network {
-	background: url(../img/shadow-for-def.png);
+	background: url(../img/shadow-for-dev.png);
 	visibility: visible;
   }
   
@@ -814,7 +818,6 @@
 	text-transform: uppercase;
 	font-size: 12px;
 	border: 2px solid;
-	margin-top: 20px;
 	padding: 17px 60px;
 	background-color: none;
 	transition: background-color 1s ease;
@@ -826,3 +829,44 @@
 	transition: background-color 1s ease;
 	border: 2px solid #c0301c;
   }
+
+  .p-in-last-block {
+	padding-left: 10%;
+	font-family: roboto_slabregular;
+	color: #555;
+	font-size: 12px;
+	width: 100%;
+	padding-top: 3px;
+  }
+
+  .footer {
+	  width: 100%;
+	  height: 307px;
+	  background-color: #c0301c;
+	  text-align: center;
+  }
+
+  .div-footer {
+	  padding-top: 100px;
+  }
+
+  .fa-in-footer {
+	  color: #fff;
+	  transition: 0.5s;
+  }
+
+  .fa-in-footer:hover {
+	transform: rotate(360deg);
+	transition: 0.5s;
+}
+
+  .p-in-footer {
+	color: #fff;
+	font-size: 12px;
+	text-transform: uppercase;
+	font-family: roboto_slabregular;
+	}
+
+	.fa-padding {
+		margin: 0 15px 0 0;
+	}
